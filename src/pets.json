@@ -1,0 +1,130 @@
+[
+  {
+    "id": 0,
+    "name": "Clara",
+    "picture": "images/9.jpg",
+    "age": 30,
+    "status": "Full-Time",
+    "location": "Lisco, Alabama"
+  },
+  {
+    "id": 1,
+    "name": "Rafael",
+    "picture": "images/2.jpg",
+    "age": 32,
+    "status": "Full-Time",
+    "location": "Tooleville, West Virginia"
+  },
+  {
+    "id": 2,
+    "name": "Gina",
+    "picture": "images/14.jpeg",
+    "age": 28,
+    "status": "Part-Time",
+    "location": "Freeburn, Idaho"
+  },
+  {
+    "id": 3,
+    "name": "Collins",
+    "picture": "images/8.jpeg",
+    "age": 25,
+    "status": "Full-Time",
+    "location": "Camas, Pennsylvania"
+  },
+  {
+    "id": 4,
+    "name": "James",
+    "picture": "images/5.jpg",
+    "age": 40,
+    "status": "Full-Time",
+    "location": "Gerber, South Dakota"
+  },
+  {
+    "id": 5,
+    "name": "Viktor",
+    "picture": "images/7.jpeg",
+    "age": 33,
+    "status": "Full-Time",
+    "location": "Innsbrook, Illinois"
+  },
+  {
+    "id": 6,
+    "name": "Latisha",
+    "picture": "images/13.jpeg",
+    "age": 37,
+    "status": "Full-Time",
+    "location": "Soudan, Louisiana"
+  },
+  {
+    "id": 7,
+    "name": "Amara",
+    "picture": "images/17.jpeg",
+    "age": 39,
+    "status": "Full-Time",
+    "location": "Jacksonwald, Palau"
+  },
+  {
+    "id": 8,
+    "name": "Nichole",
+    "picture": "images/9.jpg",
+    "age": 29,
+    "status": "Full-Time",
+    "location": "Honolulu, Hawaii"
+  },
+  {
+    "id": 9,
+    "name": "Fran",
+    "picture": "images/10.jpeg",
+    "age": 3,
+    "status": "Full-Time",
+    "location": "Matheny, Utah"
+  },
+  {
+    "id": 10,
+    "name": "Lee",
+    "picture": "images/14.jpeg",
+    "age": 2,
+    "status": "Full-Time",
+    "location": "Tyhee, Indiana"
+  },
+  {
+    "id": 11,
+    "name": "Dean",
+    "picture": "images/8.jpeg",
+    "age": 3,
+    "status": "Full-Time",
+    "location": "Windsor, Montana"
+  },
+  {
+    "id": 12,
+    "name": "Stevenson",
+    "picture": "images/13.jpeg",
+    "age": 3,
+    "status": "Full-Time",
+    "location": "Kingstowne, Nevada"
+  },
+  {
+    "id": 13,
+    "name": "Kristina",
+    "picture": "images/15.jpeg",
+    "age": 4,
+    "status": "Full-Time",
+    "location": "Sultana, Massachusetts"
+  },
+  {
+    "id": 14,
+    "name": "Zachary",
+    "picture": "images/16.jpg",
+    "age": 2,
+    "status": "Full-Time",
+    "location": "Broadlands, Oregon"
+  },
+  {
+    "id": 15,
+    "name": "Terry",
+    "picture": "images/17.jpeg",
+    "age": 2,
+    "status": "Full-Time",
+    "location": "Dawn, Wisconsin"
+  }
+]
