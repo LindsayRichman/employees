@@ -1,4 +1,4 @@
-### This repo contains files for the 4WB Hackathon + Conference hosted by Women4Blockchain and Cryptochicks at NYU Law School on October 5th-8th, 2018.
+#### This repo contains files for the 4WB Hackathon + Conference hosted by Women4Blockchain and Cryptochicks at NYU Law School on October 5th-8th, 2018.
 
 ##### Employee start and end employment DApp is based on Truffle's Pet Shop DApp
 
