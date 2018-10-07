@@ -1,0 +1,106 @@
+{
+  "Tests": [
+    {
+      "Convey": "auto-generated test for EmployeeCreate",
+      "Zome": "Agent",
+      "FnName": "EmployeeCreate",
+      "Input": {
+        "id": "employee_111",
+        "name": "ana"
+      },
+      "Output": "%h%"
+    },
+    {
+      "Convey": "auto-generated test for EmployeeRead",
+      "Zome": "Agent",
+      "FnName": "EmployeeRead",
+      "Input": "%h%",
+      "Output": {
+        "id": "employee_111",
+        "name": "ana"
+      }
+    },
+    {
+      "Convey": "auto-generated test for EmployeeUpdate",
+      "Zome": "Agent",
+      "FnName": "EmployeeUpdate",
+      "Input": "%h%",
+      "Output": "%h%"
+    },
+    {
+      "Convey": "auto-generated test for EmployeeDelete",
+      "Zome": "Agent",
+      "FnName": "EmployeeDelete",
+      "Input": "%h%",
+      "Output": "%h%"
+    },
+    {
+      "Convey": "auto-generated test for EmployerCreate",
+      "Zome": "Agent",
+      "FnName": "EmployerCreate",
+      "Input": {
+        "id": "employer_123",
+        "name": "ana"
+      },
+      "Output": "%h%"
+    },
+    {
+      "Convey": "auto-generated test for EmployerRead",
+      "Zome": "Agent",
+      "FnName": "EmployerRead",
+      "Input": "%h%",
+      "Output": {
+        "id": "employer_123",
+        "name": "ana"
+      }
+    },
+    {
+      "Convey": "auto-generated test for EmployerUpdate",
+      "Zome": "Agent",
+      "FnName": "EmployerUpdate",
+      "Input": "%h%",
+      "Output": "%h%"
+    },
+    {
+      "Convey": "auto-generated test for EmployerDelete",
+      "Zome": "Agent",
+      "FnName": "EmployerDelete",
+      "Input": "%h%",
+      "Output": "%h%"
+    },
+    {
+      "Convey": "auto-generated test for ContractCreate",
+      "Zome": "Agent",
+      "FnName": "ContractCreate",
+      "Input": {
+        "id": "123",
+        "content": "foo"
+      },
+      "Output": "%h%"
+    },
+    {
+      "Convey": "auto-generated test for ContractRead",
+      "Zome": "Agent",
+      "FnName": "ContractRead",
+      "Input": "%h%",
+      "Output": {
+        "id": "123",
+        "content": "foo"
+      }
+    },
+    {
+      "Convey": "auto-generated test for ContractUpdate",
+      "Zome": "Agent",
+      "FnName": "ContractUpdate",
+      "Input": "%h%",
+      "Output": "%h%"
+    },
+    {
+      "Convey": "auto-generated test for ContractDelete",
+      "Zome": "Agent",
+      "FnName": "ContractDelete",
+      "Input": "%h%",
+      "Output": "%h%"
+    }
+  ]
+}

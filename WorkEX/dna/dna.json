@@ -1,0 +1,128 @@
+{
+  "Version": 1,
+  "UUID": "1f1e032a-a6ce-426d-aab0-22a9ae407bff",
+  "Name": "WorkEX",
+  "Properties": {
+    "description": "",
+    "language": "en"
+  },
+  "PropertiesSchemaFile": "properties_schema.json",
+  "DHTConfig": {
+    "HashType": "sha2-256"
+  },
+  "Zomes": [
+    {
+      "Name": "Agent",
+      "Description": "",
+      "RibosomeType": "js",
+      "CodeFile": "agent.js",
+      "Entries": [
+        {
+          "Name": "Employee",
+          "Required": true,
+          "DataFormat": "json",
+          "Sharing": "public",
+          "SchemaFile": "Employee.json"
+        },
+        {
+          "Name": "Employer",
+          "Required": true,
+          "DataFormat": "json",
+          "Sharing": "public",
+          "SchemaFile": "Employer.json"
+        },
+        {
+          "Name": "Contract",
+          "Required": true,
+          "DataFormat": "json",
+          "Sharing": "public",
+          "SchemaFile": "Contract.json"
+        },
+        {
+          "Name": "toContract",
+          "Required": true,
+          "DataFormat": "links",
+          "Sharing": "public"
+        },
+        {
+          "Name": "withEmployee",
+          "Required": true,
+          "DataFormat": "links",
+          "Sharing": "public"
+        }
+      ],
+      "Functions": [
+        {
+          "Name": "EmployeeCreate",
+          "CallingType": "json",
+          "Exposure": "public"
+        },
+        {
+          "Name": "EmployeeRead",
+          "CallingType": "json",
+          "Exposure": "public"
+        },
+        {
+          "Name": "EmployeeUpdate",
+          "CallingType": "json",
+          "Exposure": "public"
+        },
+        {
+          "Name": "EmployeeDelete",
+          "CallingType": "json",
+          "Exposure": "public"
+        },
+        {
+          "Name": "EmployerCreate",
+          "CallingType": "json",
+          "Exposure": "public"
+        },
+        {
+          "Name": "EmployerRead",
+          "CallingType": "json",
+          "Exposure": "public"
+        },
+        {
+          "Name": "EmployerUpdate",
+          "CallingType": "json",
+          "Exposure": "public"
+        },
+        {
+          "Name": "EmployerDelete",
+          "CallingType": "json",
+          "Exposure": "public"
+        },
+        {
+          "Name": "ContractCreate",
+          "CallingType": "json",
+          "Exposure": "public"
+        },
+        {
+          "Name": "ContractRead",
+          "CallingType": "json",
+          "Exposure": "public"
+        },
+        {
+          "Name": "ContractUpdate",
+          "CallingType": "json",
+          "Exposure": "public"
+        },
+        {
+          "Name": "ContractDelete",
+          "CallingType": "json",
+          "Exposure": "public"
+      },
+      {
+          "Name": "AcceptContract",
+          "CallingType": "json",
+          "Exposure": "public"
+      },
+      {
+          "Name":"VerifyEmployee",
+          "CallingType": "string",
+          "Exposure": "public"
+      },
+      ]
+    }
+  ]
+}
